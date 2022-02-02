@@ -124,7 +124,7 @@ const News = ({ simplified }) => {
               </div>
               <p>
                 {news.description.length > 100
-                  ? `${news.description.substring(0, 100)}...`
+                  ? `${news.description.substring(0, 150)}...`
                   : news.description}
               </p>
               <div className="provider-container">
